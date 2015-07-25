@@ -1,0 +1,251 @@
+Version = 14
+
+Booleans = {
+    'caretLineVisible': True,
+    'preferFixed': 1,
+    'useSelFore': True
+}
+
+CommonStyles = {
+    'attribute name': {
+        'fore': 7872391, # :attributes
+    },
+    'attribute value': {
+        'fore': 10002730, # :strings
+    },
+    'bracebad': {
+        'fore': 3093212, # :braces
+    },
+    'bracehighlight': {
+        'fore': 8533715, # :braceHighlight
+    },
+    'classes': {
+        'fore': 13798182, # :classes
+    },
+    'ids': {
+        'fore': 13798182, # :classes
+    },
+    'comments': {
+        'fore': 7695960, # :comments,
+        'italic': True
+    },
+    'control characters': {},
+    'default_fixed': {
+        'back': 3549952, # :back,
+        'bold': 0,
+        'eolfilled': 0,
+        'face': 'EcoCoding',
+        'fore': 9868419, # :fore,
+        'hotspot': 0,
+        'italic': 0,
+        'lineSpacing': 4,
+        'size': 11,
+        'useFixed': 1
+    },
+    'default_proportional': {
+        'back': 3549952, # :back,
+        'bold': 0,
+        'eolfilled': 0,
+        'face': 'Helvetica',
+        'fore': 9868419, # :fore,
+        'hotspot': 0,
+        'italic': 0,
+        'size': 12,
+        'useFixed': 0
+    },
+    'fold markers': {
+        'back': 4339207, # :margin
+        'fore': 7695960, # :marginFore
+    },
+    'functions': {
+        'fore': 13798182, # :classes
+    },
+    'identifiers': {
+        'fore': 9868419, # :fore
+    },
+    'indent guides': {
+        'fore': 7695960, # :marginFore
+    },
+    'keywords': {
+        'fore': 39301, # :keywords
+    },
+    'keywords2': {
+        'fore': 13798182, # :classes
+    },
+    'linenumbers': {
+        'back': 4339207, # :margin
+        'fore': 7695960, # :marginFore
+    },
+    'numbers': {
+        'fore': 3093212, # :numbers
+    },
+    'operators': {
+        'fore': 13595679, # :operators
+    },
+    'preprocessor': {},
+    'regex': {
+        'fore': 8533715, # :braceHighlight
+    },
+    'stderr': {},
+    'stdin': {},
+    'stdout': {},
+    'stringeol': {
+        'fore': 10002730, # :strings
+    },
+    'strings': {
+        'fore': 10002730, # :strings
+    },
+    'tags': {
+        'fore': 13595679, # :operators
+    },
+    'variables': {
+        'fore': 35253, # :variables
+    },
+    'attribute name': {
+        'fore': 9868419, # :fore
+    },
+    'attribute value': {
+        'fore': 10002730, # :strings
+    },
+    'attributes': {
+        'fore': 9868419, # :fore
+    },
+    'cdata': {},
+    'cdata content': {
+        'fore': 9868419, # :fore
+    },
+    'cdata tags': {
+        'fore': 10002730, # :strings
+    },
+    'xpath attributes': {
+        'fore': 10002730, # :strings
+    }
+}
+
+# CommonStyles should cover everything
+LanguageStyles = {}
+MiscLanguageSettings = {}
+
+Colors = {
+    'bookmarkColor': 9868419, # :bookmarkColor,
+    'callingLineColor': 10092543, # :callingLineColor,
+    'caretFore': 10592659, # :caretFore,
+    'caretLineBack': 4339207, # :caretLineBack,
+    'changeMarginDeleted': 131539, # :changeMarginDeleted,
+    'changeMarginInserted': 39301, # :changeMarginInserted,
+    'changeMarginReplaced': 13595679, # :changeMarginReplaced,
+    'currentLineColor': 16764108, # :currentLineColor,
+    'edgeColor': 4339207, # :edgeColor,
+    'foldMarginColor': 4339207, # :foldMarginColor,
+    'selBack': 5590060, # :selBack,
+    'selFore': 14018798, # :selFore,
+    'whitespaceColor': 7695960, # :whitespaceColor
+}
+
+Indicators = {
+    'collab_local_change': {
+        'alpha': 0,
+        'color': 0,
+        'draw_underneath': False,
+        'style': 5
+    },
+    'collab_remote_change': {
+        'alpha': 255,
+        'color': 16764108, # :collabRemoteChange
+        'draw_underneath': True,
+        'style': 0
+    },
+    'collab_remote_cursor_1': {
+        'alpha': 100,
+        'color': 131539, # :collabCursor1
+        'draw_underneath': True,
+        'style': 8
+    },
+    'collab_remote_cursor_2': {
+        'alpha': 100,
+        'color': 8533715, # :collabCursor2
+        'draw_underneath': True,
+        'style': 8
+    },
+    'collab_remote_cursor_3': {
+        'alpha': 100,
+        'color': 13798182, # :collabCursor3
+        'draw_underneath': True,
+        'style': 8
+    },
+    'collab_remote_cursor_4': {
+        'alpha': 100,
+        'color': 39301, # :collabCursor4
+        'draw_underneath': True,
+        'style': 8
+    },
+    'collab_remote_cursor_5': {
+        'alpha': 100,
+        'color': 1461195, # :collabCursor5
+        'draw_underneath': True,
+        'style': 8
+    },
+    'find_highlighting': {
+        'alpha': 100,
+        'color': 7695960, # :matches,
+        'draw_underneath': True,
+        'outline_alpha': 0,
+        'style': 8
+    },
+    'linter_error': {
+        'alpha': 100,
+        'color': 255,
+        'draw_underneath': True,
+        'outline_alpha': 0,
+        'style': 13
+    },
+    'linter_warning': {
+        'alpha': 100,
+        'color': 32768,
+        'draw_underneath': True,
+        'outline_alpha': 0,
+        'style': 13
+    },
+    'multiple_caret_area': {
+        'alpha': 100,
+        'color': 7695960, # :matches,
+        'draw_underneath': True,
+        'outline_alpha': 100,
+        'style': 8
+    },
+    'soft_characters': {
+        'alpha': 100,
+        'color': 7695960, # :matches,
+        'draw_underneath': False,
+        'outline_alpha': 100,
+        'style': 6
+    },
+    'spelling_error': {
+        'alpha': 0,
+        'color': 4578781,
+        'draw_underneath': False,
+        'outline_alpha': 0,
+        'style': 3
+    },
+    'tabstop_current': {
+        'alpha': 100,
+        'color': 7695960, # :matches,
+        'draw_underneath': True,
+        'outline_alpha': 100,
+        'style': 8
+    },
+    'tabstop_pending': {
+        'alpha': 100,
+        'color': 7695960, # :matches,
+        'draw_underneath': True,
+        'outline_alpha': 100,
+        'style': 6
+    },
+    'tag_matching': {
+        'alpha': 255,
+        'color': 13798182, # :specialMatches,
+        'draw_underneath': True,
+        'outline_alpha': 0,
+        'style': 0
+    }
+}

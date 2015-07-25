@@ -1,0 +1,45 @@
+colors = {
+    
+    # Basics
+    "fore": "#839496",
+    "back": "#002b36",
+    "margin": "#073642",
+    "marginFore": "#586e75",
+    "bookmarkColor": "#839496",
+    "callingLineColor": "#ffff99",
+    "caretFore": "#93a1a1",
+    "caretLineBack": "#073642",
+    "changeMarginDeleted": "#d30102",
+    "changeMarginInserted": "#859900",
+    "changeMarginReplaced": "#1f74cf",
+    "currentLineColor": "#ccccff",
+    "edgeColor": "#073642",
+    "foldMarginColor": "#073642",
+    "selBack": "#2c4c55",
+    "selFore": "#eee8d5",
+    "whitespaceColor": "#586e75",
+    
+    # Common Styles
+    "attributes": "#871f78",
+    "operators": "#1f74cf",
+    "matches": "#586e75",
+    "specialMatches": "#268BD2", 
+    "strings": "#2aa198",
+    "braces": "#dc322f",
+    "braceHighlight": "#d33682",
+    "numbers": "#dc322f",
+    "classes": "#268bd2",
+    "comments": "#586e75",
+    "keywords": "#859900",
+    "keywords2": "#268bd2",
+    "variables": "#b58900",
+    
+    # Indicators
+    "collabRemoteChange": "#ccccff",
+    "collabCursor1": "#D30102",
+    "collabCursor2": "#D33682",
+    "collabCursor3": "#268BD2",
+    "collabCursor4": "#859900",
+    "collabCursor5": "#CB4B16"
+
+}
